@@ -1,0 +1,196 @@
+.Sixth {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(1, 0, 254, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 4% 8%;
+    gap: 5%;
+}
+
+.div input::placeholder {
+    font-size: 0;
+}
+
+.Sixth img {
+    position: absolute;
+    right: 0;
+}
+
+.Sixth h1 {
+    font-family: Montserrat;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 50.4px;
+    text-align: left;
+    color: rgba(23, 248, 113, 1);
+}
+
+.Sixth span {
+    font-family: IBM Plex Mono;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    color: #fff;
+    width: 30%;
+}
+
+.div {
+    width: 70%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+
+.div input {
+    width: 30%;
+    font-size: 22px;
+    color: #fff;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 4px dashed #fff;
+}
+
+.div button {
+    width: 350px;
+    height: 90%;
+    border: none;
+    background-color: rgba(23, 248, 113, 1);
+    font-family: IBM Plex Mono;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(1, 0, 254, 1);
+}
+
+
+
+
+
+
+@media (max-width:1450px) {
+    .div span {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:1250px) {
+
+
+    .Sixth h1 {
+        font-size: 42px;
+    }
+
+    .Sixth span {
+        font-size: 28px;
+    }
+
+    .div {
+        width: 90%;
+        z-index: 1;
+    }
+
+    .div span {
+        font-size: 18px;
+    }
+
+    .div input {
+        width: 400px;
+        border-bottom: 2px solid;
+    }
+
+    .div button {
+        width: 300px;
+        height: 70px;
+        font-size: 24px;
+    }
+}
+
+
+
+
+@media (max-width:390px) {
+
+    .Sixth {
+        position: relative;
+        width: 100%;
+        height: 700px;
+        background-color: rgba(1, 0, 254, 1);
+        display: flex;
+        flex-direction: column;
+        padding: 5% 10%;
+        gap: 5%;
+
+    }
+
+    .Sixth img {
+        position: absolute;
+        right: 0;
+        width: 70%;
+        height: 70%;
+    }
+
+    .Sixth h1 {
+        width: 70%;
+        z-index: 1;
+        font-family: Montserrat;
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 50.4px;
+        text-align: left;
+        color: rgba(23, 248, 113, 1);
+    }
+
+    .Sixth span {
+        font-family: IBM Plex Mono;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 38px;
+        text-align: left;
+        color: #fff;
+        width: 80%;
+        z-index: 1;
+    }
+
+    .div {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3%;
+        z-index: 1;
+    }
+
+    .div span {
+        display: none;
+    }
+
+    .div input {
+        width: 100%;
+        font-size: 28px;
+        color: #fff;
+        background: none;
+        border: none;
+        outline: none;
+        border-bottom: 2px dashed rgba(23, 248, 113, 1);
+        margin-top: 15%;
+    }
+
+
+
+    .div button {
+        margin-top: 10%;
+        width: 350px;
+        height: 70px;
+        border: none;
+        background-color: rgba(23, 248, 113, 1);
+        font-family: IBM Plex Mono;
+        font-size: 24px;
+        font-weight: 600;
+        color: rgba(1, 0, 254, 1);
+    }
+}

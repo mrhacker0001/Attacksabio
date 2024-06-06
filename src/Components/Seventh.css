@@ -1,0 +1,199 @@
+.Slider {
+    width: 95%;
+    height: 850px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 5%;
+    text-align: center;
+    margin: 20px;
+    gap: 5%;
+}
+
+.Slider h1 {
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: 500;
+    color: rgba(1, 0, 254, 1);
+}
+
+.middle-cart {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+
+.cart-group {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.middle-cart button {
+    width: 80px;
+    height: 60px;
+    background: none;
+    border: none;
+    /* background: rgba(23, 248, 113, 1); */
+}
+
+.carts {
+    width: 300px;
+    height: 500px;
+    /* Adjust width as needed */
+    padding: 20px;
+    border: 3px dashed rgba(1, 0, 254, 1);
+    margin: 10px;
+}
+
+.carts h1 {
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(1, 0, 254, 1);
+    margin-bottom: 5%;
+}
+
+.carts span {
+    font-family: IBM Plex Mono;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(1, 0, 254, 1);
+}
+
+.btn {
+    width: 350px;
+    height: 100px;
+    border: none;
+    background: none;
+    background-color: rgba(23, 248, 113, 1);
+
+
+    font-family: IBM Plex Mono;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(1, 0, 254, 1);
+}
+
+
+
+
+
+@media (max-width:1550px) {
+
+    .carts h1 {
+        font-size: 34px;
+    }
+
+    .carts span {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:1370px) {
+    .carts h1 {
+        font-size: 28px;
+    }
+
+    .carts span {
+        font-size: 19px;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    .carts {
+        width: 40%;
+        height: 300px;
+        /* Adjust width for 2 cards */
+    }
+}
+
+
+
+@media (max-width:390px) {
+    .Slider {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 0;
+        gap: 5%;
+    }
+
+    .Slider h1 {
+        font-family: Montserrat;
+        font-size: 42px;
+        font-weight: 500;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .middle-cart {
+        position: relative;
+        width: 100%;
+        height: 65%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 0;
+    }
+
+    .cart-group{
+        width: 90%;
+    }
+
+    .carts {
+        width: 70%;
+        border: 3px dashed rgba(1, 0, 254, 1);
+        padding: 1% 2%;
+        margin-top: 5%;
+    }
+
+    .middle-cart button {
+        display: block;
+    }
+
+
+
+    .carts h1 {
+        width: 100%;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 600;
+        color: rgba(1, 0, 254, 1);
+        margin-bottom: 5%;
+    }
+
+    .carts span {
+        font-family: IBM Plex Mono;
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .btn {
+        width: 250px;
+        height: 70px;
+        border: none;
+        background: none;
+        background-color: rgba(23, 248, 113, 1);
+        margin-top: 5%;
+
+
+        font-family: IBM Plex Mono;
+        font-size: 22px;
+        font-weight: 600;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .next {
+        position: absolute;
+        right: 0;
+    }
+}
